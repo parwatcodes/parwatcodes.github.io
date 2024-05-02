@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #1f1d1d;
+}
+
+.container {
+  margin: 0 15%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 25px 10px;
+  border-bottom: 2px solid rgb(245 245 245);
+}
+
+.app-tag {
+  font-weight: 600;
+  letter-spacing: 0.25px;
+}
+
+nav div .textneutral {
+  color: rgb(163 163 163);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+nav ul li {
+  float: left;
+  /* padding: 20px; */
+}
+
+p {
+  font-size: 18px;
+}
+
+main div {
+  display: flex;
+}
+
+main div section h1 {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.image {
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid rgb(245 245 245);
+}
+
+.main-div {
+  margin: 30px 0;
+}
+
+.custom-hr {
+  border: none; /* Remove default border */
+  height: 2px; /* Set the height of the line */
+  background-color: #333; /* Set the color of the line */
+  margin: 20px 0; /* Set the margin around the line */
+  width: 100%;
+}
