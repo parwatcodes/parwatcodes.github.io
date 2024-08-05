@@ -13,12 +13,10 @@
 <body>
     <div class="container">
         <div class="header">
-            <p>Hello <span class="emoji">👋</span>, I'm Parwat Kunwar</p>
-            <p>Software Engineer based in Halifax, Canada.</p>
-            <p>Currently, I serve as a Sr. software engineer at <strong>Technology Stack</strong>, a hospitality-focused
-                SaaS operating in 85+ countries.</p>
-            <p>My role in the TS team revolves around molding the product vision and language of design. Our team
-                operates in a cross-squad mode, spanning all verticals.</p>
+            <p>Hello, I'm Parwat Kunwar</p>
+            <p>Software Engineer based in Halifax.</p>
+            <!-- <p>Currently, I serve as a Sr. software engineer at <strong>Technology Stack</strong>, a outsourcing SaaS operating company in US.</p> -->
+            <p>As a full-stack developer, I design, develop, build, and deploy products. I collaborate across squads to shape the product vision and architecture, covering all project aspects.</p>
             <p class="quote">— I <span class="emoji">❤️</span> designing, developing and making things happen.</p>
         </div>
         <div class="sidebar">
@@ -39,22 +37,65 @@
                     start to develop ideas in my head I think about them in a way that I can start to make them
                     tangible.</p>
 
-                <p>About my professional career</p>
+                <p id="openModalBtn">About my professional career</p>
                 <div class="links">
                     <div class="column">
-                        <a class="item mb" href="#">LinkedIn</a>
-                        <a class="item mb" href="#">Github</a>
-                        <a class="item mb" href="#">Stack Overflow</a>
+                        <a class="item mb" href="https://www.linkedin.com/in/parwat-kunwar/" target="_blank">LinkedIn</a>
+                        <a class="item mb" href="https://github.com/parwatcodes" target="_blank">Github</a>
+                        <a class="item mb" href="https://stackoverflow.com/users/5127888/parwatcodes?tab=profile" target="_blank">Stack Overflow</a>
                     </div>
                     <div class="column">
                         <a class="item" href="#">Instagram</a>
-                        <a class="item" href="#">Twitter</a>
+                        <a class="item" href="https://twitter.com/parwatx" target="_blank">Twitter</a>
                         <a class="item" href="#">My resume</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div id="closeModalBtn">Close</div>
+                    <div style="margin-top: 50px;">
+                        <div id="headline">My professional career</div>
+                        <div>
+                            <div class="company">
+                                <div class="left-content">
+                                    <img src="/assets/images/ts.jpeg" />
+                                    <div>
+                                        <p class="bd">Technology Stack</p>
+                                        <p>Sr. Software Engineer</p>
+                                    </div>
+                                </div>
+                                <p>2022 - Now</p>
+                            </div>
+                            <div class="company">
+                                <div class="left-content">
+                                    <img src="/assets//images/lf.webp" />
+                                    <div >
+                                        <p class="bd">Leapfrog Technology</p>
+                                        <p>Software Engineer</p>
+                                    </div>
+                                </div>
+                                <p>2019 - 2020</p>
+                            </div>
+                            <div class="company">
+                                <div class="left-content">
+                                    <img src="/assets/images/enliv.jpg" />
+                                    <div>
+                                        <p class="bd">Enliv IT</p>
+                                        <p>Software Engineer</p>
+                                    </div>
+                                </div>
+                                <p>2015 - 2019</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
