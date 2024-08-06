@@ -58,7 +58,7 @@ body {
   font-size: 35px;
   font-weight: 400;
   line-height: 52px;
-  color: rgb(50, 47, 47);
+  color: rgb(50 47 47 / 95%);
 }
 
 .header h1 {
@@ -136,6 +136,7 @@ body {
 
 .sidebar .bio #openModalBtn {
   cursor: pointer;
+  font-size: 16px;
 }
 
 .sidebar .links {
@@ -291,10 +292,6 @@ body {
   }
 }
 
-.black {
-  color: #000000e4;
-}
-
 .projects {
   display: flex;
   border-radius: 5px;
@@ -356,6 +353,26 @@ body {
   transform: translate(50%, 50%) scale(3);
 }
 
+.background-overlay2 {
+  width: 50%;
+  aspect-ratio: 1;
+  background-color: #AFCBD5;
+  border-radius: 9999px;
+  position: absolute;
+  right: 0;
+  transform: translate(50%, 50%) scale(3);
+}
+
+.background-overlay3 {
+  width: 50%;
+  aspect-ratio: 1;
+  background-color: #F2B418;
+  border-radius: 9999px;
+  position: absolute;
+  right: 0;
+  transform: translate(50%, 50%) scale(3);
+}
+
 .project-description {
   font-weight: 400;
   color: rgb(0 0 0 / 66%);
@@ -363,4 +380,34 @@ body {
   line-height: 1.6;
   font-size: 14px;
   margin: 15px 0;
+}
+
+.black {
+  color: #000000e4;
+}
+
+.label {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  height: fit-content;
+  background-color: rgb(245, 245, 245);
+}
+
+.project-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+.green {
+  color: green;
+}
+
+.pending {
+  color: yellow;
+}
+
+.blue {
+  color: blue;
 }
