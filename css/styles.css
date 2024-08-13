@@ -399,6 +399,16 @@ body {
   transform: translate(50%, 50%) scale(3);
 }
 
+.background-overlay5 {
+  width: 50%;
+  aspect-ratio: 1;
+  background-color: #D2B48C;
+  border-radius: 9999px;
+  position: absolute;
+  right: 0;
+  transform: translate(50%, 50%) scale(3);
+}
+
 .project-description {
   font-weight: 400;
   color: rgb(0 0 0 / 66%);

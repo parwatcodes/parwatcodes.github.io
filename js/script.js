@@ -16,3 +16,5 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+// code to inject the modal contents for each of projects.
