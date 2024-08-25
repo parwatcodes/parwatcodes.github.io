@@ -447,3 +447,8 @@ body {
 .todo {
   background-color: #FF6347;
 }
+
+.bg-yellow {
+  /* background-color: #ffff00cf;
+  padding: 0 10px; */
+}
