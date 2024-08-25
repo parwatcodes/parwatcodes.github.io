@@ -452,3 +452,7 @@ body {
   /* background-color: #ffff00cf;
   padding: 0 10px; */
 }
+
+#name {
+cursor: pointer;
+}

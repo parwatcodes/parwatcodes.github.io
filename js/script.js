@@ -18,3 +18,13 @@ window.onclick = function(event) {
 }
 
 // code to inject the modal contents for each of projects.
+
+const hoverTextElement = document.getElementById("name");
+
+hoverTextElement.addEventListener('mouseenter', function () {
+  hoverTextElement.textContent = '@suppowerrr';
+});
+
+hoverTextElement.addEventListener('mouseleave', function () {
+  hoverTextElement.textContent = 'Parwat Kunwar'
+})
