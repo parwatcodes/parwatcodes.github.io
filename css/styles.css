@@ -260,46 +260,9 @@ body {
   background-color: rgb(62, 139, 76);
 }
 
-@media (max-width: 1024px) {
-  .modal .modal-content {
-    width: 70%;
-    margin: 5% auto;
-    /* Centering the modal with top and bottom margin */
-    left: 0;
-    right: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .modal .modal-content {
-    width: 80%;
-    height: auto;
-    margin: 10% auto;
-    /* Centering the modal */
-    left: 0;
-    right: 0;
-  }
-
-  .sd-hide-this {
-    display: none;
-  }
-
-
-}
-
-@media (max-width: 480px) {
-  .modal .modal-content {
-    width: 90%;
-    height: auto;
-    margin: 10% auto;
-    /* Centering the modal */
-    left: 0;
-    right: 0;
-  }
-}
-
 .project-wrapper {
   display: flex;
+  flex-direction: column;
 }
 
 .project-wrapper .project-info {
@@ -461,4 +424,40 @@ body {
 
 #name {
   cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .modal .modal-content {
+    width: 70%;
+    margin: 5% auto;
+    /* Centering the modal with top and bottom margin */
+    left: 0;
+    right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal .modal-content {
+    width: 80%;
+    height: auto;
+    margin: 10% auto;
+    /* Centering the modal */
+    left: 0;
+    right: 0;
+  }
+
+  .sd-hide-this {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal .modal-content {
+    width: 90%;
+    height: auto;
+    margin: 10% auto;
+    /* Centering the modal */
+    left: 0;
+    right: 0;
+  }
 }
