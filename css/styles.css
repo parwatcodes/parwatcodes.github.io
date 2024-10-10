@@ -56,9 +56,10 @@ body {
 
 .header p {
   font-size: 35px;
-  font-weight: 400;
+  /* font-weight: 400; */
+  /* margin: 25px 0; */
   line-height: 52px;
-  color: rgb(50 47 47 / 95%);
+  color: rgb(50 47 47 / 98%);
 }
 
 .header h1 {
@@ -460,4 +461,9 @@ body {
     left: 0;
     right: 0;
   }
+}
+
+.font-satoshi {
+  font-family: 'Satoshi';
+  font-weight: 900;
 }
