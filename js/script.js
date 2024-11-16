@@ -22,7 +22,7 @@ window.onclick = function(event) {
 const hoverTextElement = document.getElementById("name");
 
 hoverTextElement.addEventListener('mouseenter', function () {
-  hoverTextElement.textContent = '@suppowerrr';
+  hoverTextElement.textContent = '@suppow8rrr';
 });
 
 hoverTextElement.addEventListener('mouseleave', function () {
